@@ -36,16 +36,17 @@ class AppLocalizationsEn extends AppLocalizations {
   String get remove => 'Remove';
 
   @override
-  String get confirmTitle => 'Quitar favorito';
+  String get confirmTitle => 'Remove from favourites';
 
   @override
-  String get confirmMessage => '¿Quieres quitar este héroe de favoritos?';
+  String get confirmMessage =>
+      'Do you want to remove this hero from your favourites?';
 
   @override
-  String get noFavorites => 'Todavía no tienes favoritos.';
+  String get noFavorites => 'You don’t have any favourites yet.';
 
   @override
-  String get noResults => 'No hay resultados.';
+  String get noResults => 'No results found.';
 
   @override
   String get pending => 'Complete the favorites challenge.';
